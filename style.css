@@ -1,0 +1,154 @@
+head {
+	font-family: 'Arimo', sans-serif;
+}
+
+h1, h2,  nav, ol, ul  {
+  font-family: "Nobile", sans-serif;
+  color: #19191a;
+}
+
+h3, h4, h5, h6{
+  font-family: "Gudea", sans-serif;
+  color: #19191a;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "News Cycle", sans-serif;
+}
+
+#banner{
+    max-width: 100%;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+
+nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:10px;
+    text-align:center;
+    background-color: #999aae; 
+
+}
+
+nav a{
+    display: inline;
+    text-decoration: none;
+        display: inline;
+    color: white;
+    background: #9e9fb3;
+    text-decoration: none;
+    padding: 10px;
+}
+
+ol{
+    list-style: none;
+    text-align: center;
+}
+
+a{
+    color: black;
+}
+nav a:hover { 
+    background-color: white;
+    color: black;
+}
+
+.footermenu a:hover { 
+    color: black;
+    background-color: #9e9fb3;
+}
+
+
+aside a:hover { 
+    color: grey;
+}
+
+aside{
+	float: left;
+	width: 200px;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    margin-left: 300px;
+}
+
+section{
+	float: right;
+	width: 400px;
+    margin-right: 450px;
+}
+
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
+footer{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0px;
+    text-align:center;
+    background-color: #d0daea; 
+}
+
+.footermenu{
+	border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:2px;
+    text-align:center;
+    background-color: #999aae; 
+
+}
+
+.footermenu a, ol{
+    color: #4f5059;
+}
+.banner{
+}
+
+.footer1{
+    float: left;
+    width: 15%;
+    margin-left: 250px;
+    padding: 1%;
+}
+
+.footer2{
+    float: left;
+    width: 15%;
+        padding: 1%;
+}
+
+.footer3{
+    float: left;
+    width: 15%;
+        padding: 1%;
+}
+
+.footer4{
+    float: left;
+    width: 15%; 
+        padding: 1%; 
+    margin-right: 250px;
+}
+
+.copyright{
+    background-color: #dcdce3;
+}
